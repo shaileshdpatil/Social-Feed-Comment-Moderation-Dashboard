@@ -1,0 +1,56 @@
+.ant-input:-webkit-autofill,
+.ant-input:-webkit-autofill:hover,
+.ant-input:-webkit-autofill:focus,
+.ant-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #000000d9 !important;
+  background-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.ant-input-password input:-webkit-autofill,
+.ant-input-password input:-webkit-autofill:hover,
+.ant-input-password input:-webkit-autofill:focus,
+.ant-input-password input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #000000d9 !important;
+  background-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.login-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.login-subtitle {
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.login-button {
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+}
